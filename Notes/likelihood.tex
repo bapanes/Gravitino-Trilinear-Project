@@ -1,0 +1,123 @@
+\documentclass[12pt,letterpaper,roman]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\newcommand{\subscript}[2]{$#1 _ #2$}
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Gravitino dark matter and lepton cosmic rays}
+\author{German A. Gomez-Vargas\footnote{ggomezv@uc.cl}}
+
+\begin{document}
+\maketitle
+\begin{itemize}
+\item Fit to the leptonic cosmic ray data using parametrised background and gravitino decay products.
+
+\item Then comparisonon of the good fit points to the gamma-ray background.
+
+\item If the gravitino-induced gamma-ray emission is below the red line the point is not excluded as the main source of cosmic ray electrons and positrons at high energy.
+\end{itemize}
+
+We fit measurements related to electron and positron fluxes at Earth, so we define backgrounds for each of these fluxes with power laws:
+
+\begin{equation}
+P_m^B(E) = C_P E^{-\gamma_P}, 
+\end{equation}
+for positrons, and for electrons:
+
+\begin{equation}
+\epsilon_m^B(E) = C_e E^{-\gamma_e}.
+\end{equation}
+
+It is not possible to reproduce the rise in electron and positron flux above $\approx 200$ GeV modeling the fluxes with decreasing power laws. Therefore, we must include a source term injecting electron and positrons at high energies. Our source term candidate is the decay of gravitino dark matter into standard model particles. It is worth noticing that gravitino decay yields equal amounts of electron and positron. We model the amount of electrons, positrons, or $\gamma$ rays, labeled as $\eta$, produced by gravitino decay as:
+
+\begin{equation}
+\Phi_{dm}^{\eta}(E) = \frac{1}{m_G \tau_G} \sum_j{Br_j \frac{dN_j^{\eta}}{dE}} D^{\eta}_{\text{factor}},
+ \end{equation}
+
+with $m_G$ and $\tau_G$ the mass and lifetime of the gravitino respectively. The $D^{\eta}_{\text{factor}}$ is proportional to the density of dark matter in the case of $\eta=\gamma$ rays, in the other cases is a more complex term that depends on the dark matter density and the propagation of charged particles in the Galaxy. The term $\frac{dN_j^{\eta}}{dE}$ is the amount of electrons, positrons, or $\gamma$ rays per energy produced by decay of a gravitino per energy and propagated at the Earth position. As in the case of leptons some of the decay channels produce equal amounts of electrons and positrons we can simplify the equation to:
+\begin{equation}
+\Phi_{dm}^{\eta}(E) = \frac{1}{m_G \tau_G} \sum_{k=1}^3{\alpha_k \frac{dN_k^{\eta}}{dE}} D^{\eta}_{\text{factor}},
+ \end{equation}
+ 
+ with the constrain of $1=\sum_{k=1}^3{\alpha_k}$ we only need to determine two parameters. A further simplification is that we pre-compute the flux for different decay channels and gravitino masses assuming a $ \tau_G = 1\times 10^{27}$s. So, the flux of gravitino decay products at Earth is:
+ 
+ \begin{equation}
+\Phi_{dm}^{\eta}(E) = \frac{f}{ 1\times 10^{27}\text{s} m_G} \sum_{k=1}^3{\alpha_k \frac{dN_k^{\eta}}{dE}} D^{\eta}_{\text{factor}},
+ \end{equation}
+the factor $f$ allow us to parametrize the amount of flux and is inversily proportional to $ \tau_G$, so determining $f$ we determine $ \tau_G$. 
+
+Summarising, we have 8 free parameters to fully determine signal and background for electron and positron fluxes. To compare with data, for instance positron measurements $P_D(E_i)$, we define the following likelihood form:
+
+\begin{equation}
+\log  \mathcal{L}_{\text{Positrons}} = -\frac{1}{2} \sum_i{\left( \frac{(P_D(E_i) - P_m(\theta_p,E_i ))^2}{(\sigma_D^2 + j\times P_D^2(\theta_p,E_i))} - \frac{1}{(\sigma_D^2 + j\times P_D^2(\theta_p,E_i))}  \right) },
+\end{equation}
+
+with $\sigma_D$ the statistical uncertainty of the measurement. The model is defined as:
+
+\begin{equation}
+P_m(\theta,E ) = P_m^B(C_p, \gamma_P, E) + \Phi_{dm}^{P}(m_G, f, \alpha_1, \alpha_2, E).
+\end{equation}
+
+We introduce the parameter $j$ in the likelihood to increase the total uncertainty as a fraction of the model, this is to account for possible systematic effects and correlations among the different data sets used. In the case of fitting the electron flux we have:
+
+\begin{equation}
+\log  \mathcal{L}_{\text{Electrons}} = -\frac{1}{2} \sum_i{\left( \frac{(\epsilon_D(E_i) - \epsilon_m(\theta,E_i ))^2}{(\sigma_D^2 + t\times \epsilon_D^2(\theta,E_i))} - \frac{1}{(\sigma_D^2 + t\times \epsilon_D^2(\theta,E_i))}  \right) },
+\end{equation}
+
+with:
+
+\begin{equation}
+\epsilon_m(\theta,E ) = \epsilon_m^B(C_e, \gamma_e, E) + \Phi_{dm}^{\epsilon}(m_G, f, \alpha_1, \alpha_2, E).
+\end{equation}
+
+We can use 3 or 4 measurements,  so the parameter space can be of 11 or 12 dimensions. The measurements are:
+\begin{enumerate}[label=(\subscript{D}{{\arabic*}})]
+\item Positron flux, by AMS02.
+\item Electron flux, by AMS02.
+\item Positron fraction, by AMS02. It is positrons/(electrons + positrons).
+\item Electron + positron flux, by AMS02.
+\item Electron + positron flux, by CALET.
+\item Electron + positron flux, by DAMPE.
+\end{enumerate}
+
+In multinest we put a total likelihood that combines all 3 or 4 measurements. We will explore 4 cases:
+\begin{enumerate}
+\item $D_1 + D_2 + D_3$
+\item $D_1 + D_2 + D_3 + D_4$
+\item $D_1 + D_2 + D_3 + D_5$
+\item $D_1 + D_2 + D_3 + D_6$
+\end{enumerate}
+
+\section{Results}
+
+\subsection{$D_1 + D_2 + D_3$}
+
+We find many points that can explain the lepton data and while not overshoot the $\gamma$-ray extragalactic background. With the bilinear model in previous work, we could not have that situation.
+
+\subsection{$D_1 + D_2 + D_3 + D_4$}
+
+We get similar results than in the previous case, but adding the electron-positron sum from the same detector (in the 0.5 GeV to 1 TeV range PRL 113, 221102) may be a problem. Not entirely sure what it means, but the parameter related to this new measurement $\log(k)$ is significantly larger than the other three (see slide 8), maybe some correlation with the other data. An interpretation is that to produce the observed points we need to degrade the likelihood in the electron+positron data in a fraction of the model.
+
+\subsection{$D_1 + D_2 + D_3 + D_5$}
+
+In this case we do not use the electron-positron sum from AMS02, but the values reported by CALET. The CALorimetric Electron Telescope is an instrument placed in the International Space Station, as well as AMS02. In arXiv:1712.01711 CALET team reported a measurement of the cosmic-ray electron + positron spectrum from 10 GeV to 3 TeV. The CALET spectrum is compatible with results from AMS02, but with Fermi and DAMPE reports. Including CALET data (but e+p AMS02) makes the fit to prefers higher gravitino masses and reduces the parameter space allowed for reproducing the lepton data while keeping the gamma-ray flux below the Fermi estimation.
+
+\subsection{$D_1 + D_2 + D_3 + D_6$}
+We include here e+p spectrum from DAMPE. This measurement is in tension with AMS02. We find no points compatible with lepton and gamma-ray data.
+
+
+
+
+
+\end{document}

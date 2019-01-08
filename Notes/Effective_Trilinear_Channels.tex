@@ -1,0 +1,304 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{amstext}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Effective trilinear channels}
+
+
+\author{Boris Panes}
+
+\maketitle
+
+\section{Gravitino decay channels in trilinear RpV}
+
+Formally, the model that we are considering is supersymmetry with
+trilinear R-parity violation in the leptonic sector and also we consider
+the gravitino as the lightest susy particle and dark matter candidate.
+Since R-parity is broken our DM candidate is metastable and could
+be detected indirectly. 
+
+The lagrangian of this model must be investigated carefully in order
+to understand the relationship between the free parameters of the
+model and the strengths of gravitino decays, which is something that
+we are currently working on and should be added to our notes for the
+paper. However, for the current discussion we just need to know that
+in principle we can have the following decay channels $G\rightarrow l_{i}^{+}l_{j}^{-}\nu_{k}$
+with $i,j,k$ running over the three SM families of leptons, thus
+in principle we have 27 different final state channels to consider.
+
+Fortunately, for the fit of measured charged leptons from AMS-02,
+CALET or DAMPE, we can consider only the gravitino final state channels
+that in principle could produce different spectra of electrons and
+positrons. Therefore, until now, we have simulated with Pythia and
+used for the fit the list of gravitino decay channels shown in table
+\ref{tab:Independent-channels-prompt-final-states}, which seem to
+be independent when we consider the nature of the produced prompt
+leptons after decay.
+
+\begin{table}
+\centering{}%
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Channel & Final State & Details & Acronym\tabularnewline
+\hline 
+\hline 
+1 & $e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$ & antielectron-muon-neutrino & AEMuNue\tabularnewline
+\hline 
+2 & $e\text{\textsuperscript{+}}\tau\text{\textsuperscript{-}}\nu$ & antielectron-tau-neutrino & AETauNue\tabularnewline
+\hline 
+3 & $e\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$ & electron-antimuon-neutrino & EAMuNue\tabularnewline
+\hline 
+4 & $\mu\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$ & muon-antimuon-neutrino & MuAMuNue\tabularnewline
+\hline 
+5 & $\tau\text{\textsuperscript{-}}\tau\text{\textsuperscript{+}}\nu$ & tau-antitau-neutrino & TauATauNue\tabularnewline
+\hline 
+6 & $\tau\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$ & tau-antimuon-neutrino & TauAMuNue\tabularnewline
+\hline 
+7 & $\tau\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$ & antitau-muon-neutrino & ATauMuNue\tabularnewline
+\hline 
+8 & $e\text{\textsuperscript{-}}e\text{\textsuperscript{+}}\nu$ & electron-antielectron-neutrino & EAENue\tabularnewline
+\hline 
+9 & $e\text{\textsuperscript{-}}\tau\text{\textsuperscript{+}}\nu$ & electron-antitau-neutrino & EATauNue\tabularnewline
+\hline 
+\end{tabular}\caption{\label{tab:Independent-channels-prompt-final-states}Independent channels
+considering prompt final states. Notice that we use $\nu$ to indicate
+any flavor of neutrinos. }
+\end{table}
+
+
+Thus, in principle we have 8 independent branching ratios, which is
+a bunch of free parameters to add to the fit of charged leptons. Recall
+that we also have 4 parameters from the modeling of the source, 2
+to 3 from the modeling of systematic uncertainties and 2 more associated
+to the mass and lifetime of the gravitinos. However, by studying the
+propagated spectra of electrons and positrons, we have noticed that
+there are channels with different final state particles that produce
+basically the same spectrum of charged leptons, which we consider
+as coincident spectra (this is not necessarily related to charge conjugation).
+For instance we obtain the same spectrum of positrons from the channels
+$e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$ and
+$e\text{\textsuperscript{+}}\tau\text{\textsuperscript{-}}\nu$, which
+can be understood because $\mu\text{\textsuperscript{-}}$ and $\tau\text{\textsuperscript{-}}$
+do not produce extra positrons. The independent spectrum groups are
+shown in table \ref{tab:Independent-channels-spectrum}.
+
+\begin{table}
+\begin{centering}
+\begin{tabular}{|c|c|c|}
+\hline 
+Charged lepton spectrum & Group ID & Channels\tabularnewline
+\hline 
+\hline 
+\multirow{3}{*}{Electron} & g1-ele & 1-4-7\tabularnewline
+\cline{2-3} 
+ & g2-ele & 2-5-6\tabularnewline
+\cline{2-3} 
+ & g3-ele & 3-8-9\tabularnewline
+\hline 
+\multirow{3}{*}{Positron} & g1-pos & 1-2-8\tabularnewline
+\cline{2-3} 
+ & g2-pos & 3-4-6\tabularnewline
+\cline{2-3} 
+ & g3-pos & 5-7-9\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\caption{\label{tab:Independent-channels-spectrum}Independent spectrum groups
+considering the coincidence between the propagated spectrum of charged
+leptons.}
+\end{table}
+
+
+Besides, from consistency, the spectrum of electrons from one channel
+$A$ must be equal to the spectrum of positrons from the charge conjugated
+one $\bar{A}$. This is not necessarily an assumption about the coupling
+strengths of the lagrangian, since this only relies in the equivalence
+between charge conjugated channels and their corresponding final states.
+For instance, we should have that the electron spectrum from $e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$
+coincides with positron one from $e\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$,
+etc. The list of equivalent spectra are shown in table \ref{tab:Equivalence-between-AAbar},
+where we have used the groups defined in table \ref{tab:Independent-channels-spectrum}.
+
+\begin{table}
+\begin{centering}
+\begin{tabular}{|c|c|}
+\hline 
+Electron Spectrum & Positron Spectrum\tabularnewline
+\hline 
+\hline 
+g1-ele & g2-pos\tabularnewline
+\hline 
+g2-ele & g3-pos\tabularnewline
+\hline 
+g3-ele & g1-pos\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\caption{\label{tab:Equivalence-between-AAbar}Equivalence between the electron
+spectrum of channel $A$ and the positron spectrum of channel $\bar{A}$.}
+\end{table}
+
+
+Finally, we also have some arguments (to be properly developed starting
+from the lagrangian of the model and using c.c. invariance) to assume
+that there is an equivalence between the branching fractions associated
+to \textit{charge conjugated} channels. So, in this case we are basically
+assuming that the branching fraction of the $e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$
+channel is equal to the branching fraction of the $e\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$
+one. We summarize these conditions in table \ref{tab:Equivalence-between-branching-fractions}.
+The details about this assumption are going to be released as soon
+as possible
+
+\begin{table}[H]
+\begin{centering}
+\begin{tabular}{|c|c|}
+\hline 
+BR of Channel $A$ & BR of Channel $B$\tabularnewline
+\hline 
+\hline 
+1 ($e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$) & 3 ($e\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$)\tabularnewline
+\hline 
+2 ($e\text{\textsuperscript{+}}\tau\text{\textsuperscript{-}}\nu$) & 9 ($e\text{\textsuperscript{-}}\tau\text{\textsuperscript{+}}\nu$)\tabularnewline
+\hline 
+6 ($\tau\text{\textsuperscript{-}}\mu\text{\textsuperscript{+}}\nu$) & 7 ($\tau\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$)\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\caption{\label{tab:Equivalence-between-branching-fractions}Equivalence between
+branching fractions motivated from c.c. invariance (we have to check
+this considering the real gravitino-trilinear lagrangian).}
+\end{table}
+
+
+
+\section{Effective flux of charged leptons}
+
+Here, we are going to use the results of the previous section to rewrite
+the flux of charged leptons. First, let us recall that the flux of
+electrons from gravitino decays can be written as
+
+\begin{equation}
+\frac{dN(e\text{\textsuperscript{-}})}{dE}\propto\frac{1}{m_{G}\tau_{G}}\sum_{i=1}^{9}BR_{i}\frac{dN_{i}(e\text{\textsuperscript{-}})}{dE}\label{eq:ch-lepton-spec}
+\end{equation}
+
+
+\noindent where $m_{G}$ is the gravitino mass, $\tau_{G}$ is the
+gravitino lifetime, the index $i$ cover the 9 channels of table \ref{tab:Independent-channels-prompt-final-states},
+$BR_{i}$ are the corresponding branching ratios of each channel and
+$dN_{i}(e\text{\textsuperscript{-}})/dE$ are the propagated gravitino
+decay spectra (normalized to one decay), which are obtained from the
+propagation of charged leptons through the galactic environment. Here
+we need to unify conventions with German's notation but in principle
+is just a matter of names, nothing deep.
+
+In principle, we can get each $BR{}_{i}$ as a function of the free
+parameters of our model, such as the trilinear couplings $\lambda_{ijk}$
+or the mass of scalars (at some point we have to do this computation,
+for which we suggest to follow hep-ph/0107286), but in general we
+can consider the branching fractions as the effective free parameters
+for the fit of charged lepton measurements with the condition that
+$\sum_{i}BR_{i}=1$. Furthermore, considering the results of table
+\ref{tab:Independent-channels-spectrum} we can group-factorize some
+spectra and write that
+
+\begin{eqnarray*}
+\frac{dN(e\text{\textsuperscript{-}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{1}+BR_{4}+BR_{7})\frac{dN_{1}(e\text{\textsuperscript{-}})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{2}+BR_{5}+BR_{6})\frac{dN_{2}(e\text{\textsuperscript{-}})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{3}+BR_{8}+BR_{9})\frac{dN_{3}(e\text{\textsuperscript{-}})}{dE}\biggr]\\
+\frac{dN(e\text{\textsuperscript{-}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{1}(e\text{\textsuperscript{-}})}{dE}+\alpha_{2}\frac{dN_{2}(e\text{\textsuperscript{-}})}{dE}+\alpha_{3}\frac{dN_{3}(e\text{\textsuperscript{-}})}{dE}\biggr]
+\end{eqnarray*}
+
+
+\noindent where $\alpha_{1}=BR{}_{1}+BR_{4}+BR_{7}$, $\alpha_{2}=BR{}_{2}+BR_{5}+BR_{6}$
+and $\alpha_{3}=BR{}_{3}+BR_{8}+BR_{9}$ with $\alpha_{1}+\alpha_{2}+\alpha_{3}=1$.
+Thus, we just need to define two independent effective branching fractions
+for the fit of electrons. Similarly, for the positron spectrum we
+have that
+
+\begin{eqnarray*}
+\frac{dN(e\text{\textsuperscript{+}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{1}+BR_{2}+BR_{8})\frac{dN_{1}(e\text{\textsuperscript{+}})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{3}+BR_{4}+BR_{6})\frac{dN_{3}(e\text{\textsuperscript{+}})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{5}+BR_{7}+BR_{9})\frac{dN_{5}(e\text{\textsuperscript{+}})}{dE}\biggr]
+\end{eqnarray*}
+
+
+Besides, we can use the branching ratio equivalences shown in table
+\ref{tab:Equivalence-between-branching-fractions} to rewrite the
+positron spectrum as
+
+\begin{eqnarray*}
+\frac{dN(e\text{\textsuperscript{+}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{3}+BR_{2}+BR_{8})\frac{dN_{1}(e\text{\textsuperscript{+}})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{1}+BR_{4}+BR_{7})\frac{dN_{3}(e\text{\textsuperscript{+}})}{dE}\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{2}+BR_{5}+BR_{6})\frac{dN_{5}(e\text{\textsuperscript{+}})}{dE}\biggr]\\
+\frac{dN(e\text{\textsuperscript{+}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{3}(e\text{\textsuperscript{+}})}{dE}+\alpha_{2}\frac{dN_{5}(e\text{\textsuperscript{+}})}{dE}+\alpha_{3}\frac{dN_{1}(e\text{\textsuperscript{+}})}{dE}\biggr]
+\end{eqnarray*}
+
+
+Finally, we use table \ref{tab:Equivalence-between-AAbar} to relate
+the positron spectrum to the electron one
+
+\begin{eqnarray*}
+\frac{dN(e\text{\textsuperscript{+}})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{1}(e\text{\textsuperscript{-}})}{dE}+\alpha_{2}\frac{dN_{2}(e\text{\textsuperscript{-}})}{dE}+\alpha_{3}\frac{dN_{3}(e\text{\textsuperscript{-}})}{dE}\biggr]\\
+\frac{dN(e\text{\textsuperscript{+}})}{dE} & \equiv & \frac{dN(e\text{\textsuperscript{-}})}{dE}
+\end{eqnarray*}
+
+
+Therefore, for the fit of AMS-02, CALET or DAMPE we just need two
+$\alpha's$ and three independent spectra. Furthermore, we get automatically
+the electron-positron symmetry for (gravitino) dark matter decays
+which is expected from general arguments considering charge conjugation
+symmetry.
+
+
+\section{Gamma rays at Fermi-LAT}
+
+As we only can fix $\alpha_{1}$, $\alpha_{2}$ and $\alpha_{3}$
+from the fit of charged leptons we have some freedom to choose the
+individual branching fractions to generate the photon flux. Also we
+must notice that for the photon spectrum we do not have coincidences
+between the spectrum of different channels such as $e\text{\textsuperscript{+}}\mu\text{\textsuperscript{-}}\nu$
+and $e\text{\textsuperscript{+}}\tau\text{\textsuperscript{-}}\nu$,
+as we had for positrons. Therefore we are free to choose $BR{}_{1}$
+to $BR_{9}$ with the conditions that
+\begin{eqnarray*}
+\alpha_{1} & = & BR{}_{1}+BR_{4}+BR_{7}\\
+\alpha_{2} & = & BR{}_{2}+BR_{5}+BR_{6}\\
+\alpha_{3} & = & BR{}_{3}+BR_{8}+BR_{9}
+\end{eqnarray*}
+
+
+In order to decrease the possible number of photons to be produced
+we may choose $BR_{i}$ in the following way,
+
+\begin{eqnarray*}
+BR_{1} & = & \alpha_{1},\,\,\,BR_{4}=BR_{7}=0\\
+BR_{2} & = & \alpha_{2},\,\,\,BR_{5}=BR_{6}=0\\
+BR_{8} & = & \alpha_{3},\,\,\,BR_{3}=BR_{9}=0
+\end{eqnarray*}
+
+
+This choice needs to be justified but in principle it has allowed
+us to find compatible points, which can be seen from the plots of
+German-Jul17. 
+\end{document}
+\grid

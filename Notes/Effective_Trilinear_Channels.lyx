@@ -1,0 +1,1573 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Effective trilinear channels
+\end_layout
+
+\begin_layout Author
+Boris Panes
+\end_layout
+
+\begin_layout Section
+Gravitino decay channels in trilinear RpV
+\end_layout
+
+\begin_layout Standard
+Formally, the model that we are considering is supersymmetry with trilinear
+ R-parity violation in the leptonic sector and also we consider the gravitino
+ as the lightest susy particle and dark matter candidate.
+ Since R-parity is broken our DM candidate is metastable and could be detected
+ indirectly.
+ 
+\end_layout
+
+\begin_layout Standard
+The lagrangian of this model must be investigated carefully in order to
+ understand the relationship between the free parameters of the model and
+ the strengths of gravitino decays, which is something that we are currently
+ working on and should be added to our notes for the paper.
+ However, for the current discussion we just need to know that in principle
+ we can have the following decay channels 
+\begin_inset Formula $G\rightarrow l_{i}^{+}l_{j}^{-}\nu_{k}$
+\end_inset
+
+ with 
+\begin_inset Formula $i,j,k$
+\end_inset
+
+ running over the three SM families of leptons, thus in principle we have
+ 27 different final state channels to consider.
+\end_layout
+
+\begin_layout Standard
+Fortunately, for the fit of measured charged leptons from AMS-02, CALET
+ or DAMPE, we can consider only the gravitino final state channels that
+ in principle could produce different spectra of electrons and positrons.
+ Therefore, until now, we have simulated with Pythia and used for the fit
+ the list of gravitino decay channels shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Independent-channels-prompt-final-states"
+
+\end_inset
+
+, which seem to be independent when we consider the nature of the produced
+ prompt leptons after decay.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Channel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final State
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Details
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acronym
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+antielectron-muon-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AEMuNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e\text{⁺}\tau\text{⁻}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+antielectron-tau-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AETauNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+electron-antimuon-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EAMuNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+muon-antimuon-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MuAMuNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\text{⁻}\tau\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tau-antitau-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TauATauNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tau-antimuon-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TauAMuNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+antitau-muon-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ATauMuNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e\text{⁻}e\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+electron-antielectron-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EAENue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e\text{⁻}\tau\text{⁺}\nu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+electron-antitau-neutrino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EATauNue
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Independent-channels-prompt-final-states"
+
+\end_inset
+
+Independent channels considering prompt final states.
+ Notice that we use 
+\begin_inset Formula $\nu$
+\end_inset
+
+ to indicate any flavor of neutrinos.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, in principle we have 8 independent branching ratios, which is a bunch
+ of free parameters to add to the fit of charged leptons.
+ Recall that we also have 4 parameters from the modeling of the source,
+ 2 to 3 from the modeling of systematic uncertainties and 2 more associated
+ to the mass and lifetime of the gravitinos.
+ However, by studying the propagated spectra of electrons and positrons,
+ we have noticed that there are channels with different final state particles
+ that produce basically the same spectrum of charged leptons, which we consider
+ as coincident spectra (this is not necessarily related to charge conjugation).
+ For instance we obtain the same spectrum of positrons from the channels
+ 
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+ and 
+\begin_inset Formula $e\text{⁺}\tau\text{⁻}\nu$
+\end_inset
+
+, which can be understood because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mu\text{⁻}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\tau\text{⁻}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ do not produce extra positrons.
+ The independent spectrum groups are shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Independent-channels-spectrum"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Charged lepton spectrum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Group ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Channels
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g1-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-4-7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g2-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-5-6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g3-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-8-9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Positron
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g1-pos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2-8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g2-pos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-4-6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g3-pos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-7-9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Independent-channels-spectrum"
+
+\end_inset
+
+Independent spectrum groups considering the coincidence between the propagated
+ spectrum of charged leptons.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Besides, from consistency, the spectrum of electrons from one channel 
+\begin_inset Formula $A$
+\end_inset
+
+ must be equal to the spectrum of positrons from the charge conjugated one
+ 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+.
+ This is not necessarily an assumption about the coupling strengths of the
+ lagrangian, since this only relies in the equivalence between charge conjugated
+ channels and their corresponding final states.
+ For instance, we should have that the electron spectrum from 
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+ coincides with positron one from 
+\begin_inset Formula $e\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+, etc.
+ The list of equivalent spectra are shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Equivalence-between-AAbar"
+
+\end_inset
+
+, where we have used the groups defined in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Independent-channels-spectrum"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electron Spectrum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Positron Spectrum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g1-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g2-pos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g2-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g3-pos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g3-ele
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g1-pos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Equivalence-between-AAbar"
+
+\end_inset
+
+Equivalence between the electron spectrum of channel 
+\begin_inset Formula $A$
+\end_inset
+
+ and the positron spectrum of channel 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, we also have some arguments (to be properly developed starting
+ from the lagrangian of the model and using c.c.
+ invariance) to assume that there is an equivalence between the branching
+ fractions associated to 
+\shape italic
+charge conjugated
+\shape default
+ channels.
+ So, in this case we are basically assuming that the branching fraction
+ of the 
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+ channel is equal to the branching fraction of the 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $e\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ one.
+ We summarize these conditions in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Equivalence-between-branching-fractions"
+
+\end_inset
+
+.
+ The details about this assumption are going to be released as soon as possible
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BR of Channel 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BR of Channel 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 (
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 (
+\begin_inset Formula $e\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 (
+\begin_inset Formula $e\text{⁺}\tau\text{⁻}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9 (
+\begin_inset Formula $e\text{⁻}\tau\text{⁺}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 (
+\begin_inset Formula $\tau\text{⁻}\mu\text{⁺}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7 (
+\begin_inset Formula $\tau\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Equivalence-between-branching-fractions"
+
+\end_inset
+
+Equivalence between branching fractions motivated from c.c.
+ invariance (we have to check this considering the real gravitino-trilinear
+ lagrangian).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Effective flux of charged leptons
+\end_layout
+
+\begin_layout Standard
+Here, we are going to use the results of the previous section to rewrite
+ the flux of charged leptons.
+ First, let us recall that the flux of electrons from gravitino decays can
+ be written as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{dN(e\text{⁻})}{dE}\propto\frac{1}{m_{G}\tau_{G}}\sum_{i=1}^{9}BR_{i}\frac{dN_{i}(e\text{⁻})}{dE}\label{eq:ch-lepton-spec}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $m_{G}$
+\end_inset
+
+ is the gravitino mass, 
+\begin_inset Formula $\tau_{G}$
+\end_inset
+
+ is the gravitino lifetime, the index 
+\begin_inset Formula $i$
+\end_inset
+
+ cover the 9 channels of table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Independent-channels-prompt-final-states"
+
+\end_inset
+
+, 
+\begin_inset Formula $BR_{i}$
+\end_inset
+
+ are the corresponding branching ratios of each channel and 
+\begin_inset Formula $dN_{i}(e\text{⁻})/dE$
+\end_inset
+
+ are the propagated gravitino decay spectra (normalized to one decay), which
+ are obtained from the propagation of charged leptons through the galactic
+ environment.
+ Here we need to unify conventions with German's notation but in principle
+ is just a matter of names, nothing deep.
+\end_layout
+
+\begin_layout Standard
+In principle, we can get each 
+\begin_inset Formula $BR{}_{i}$
+\end_inset
+
+ as a function of the free parameters of our model, such as the trilinear
+ couplings 
+\begin_inset Formula $\lambda_{ijk}$
+\end_inset
+
+ or the mass of scalars (at some point we have to do this computation, for
+ which we suggest to follow hep-ph/0107286), but in general we can consider
+ the branching fractions as the effective free parameters for the fit of
+ charged lepton measurements with the condition that 
+\begin_inset Formula $\sum_{i}BR_{i}=1$
+\end_inset
+
+.
+ Furthermore, considering the results of table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Independent-channels-spectrum"
+
+\end_inset
+
+ we can group-factorize some spectra and write that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{dN(e\text{⁻})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{1}+BR_{4}+BR_{7})\frac{dN_{1}(e\text{⁻})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{2}+BR_{5}+BR_{6})\frac{dN_{2}(e\text{⁻})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{3}+BR_{8}+BR_{9})\frac{dN_{3}(e\text{⁻})}{dE}\biggr]\\
+\frac{dN(e\text{⁻})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{1}(e\text{⁻})}{dE}+\alpha_{2}\frac{dN_{2}(e\text{⁻})}{dE}+\alpha_{3}\frac{dN_{3}(e\text{⁻})}{dE}\biggr]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $\alpha_{1}=BR{}_{1}+BR_{4}+BR_{7}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{2}=BR{}_{2}+BR_{5}+BR_{6}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha_{3}=BR{}_{3}+BR_{8}+BR_{9}$
+\end_inset
+
+ with 
+\begin_inset Formula $\alpha_{1}+\alpha_{2}+\alpha_{3}=1$
+\end_inset
+
+.
+ Thus, we just need to define two independent effective branching fractions
+ for the fit of electrons.
+ Similarly, for the positron spectrum we have that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{dN(e\text{⁺})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{1}+BR_{2}+BR_{8})\frac{dN_{1}(e\text{⁺})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{3}+BR_{4}+BR_{6})\frac{dN_{3}(e\text{⁺})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{5}+BR_{7}+BR_{9})\frac{dN_{5}(e\text{⁺})}{dE}\biggr]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Besides, we can use the branching ratio equivalences shown in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Equivalence-between-branching-fractions"
+
+\end_inset
+
+ to rewrite the positron spectrum as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{dN(e\text{⁺})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[(BR_{3}+BR_{2}+BR_{8})\frac{dN_{1}(e\text{⁺})}{dE}+\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{1}+BR_{4}+BR_{7})\frac{dN_{3}(e\text{⁺})}{dE}\\
+ &  & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(BR_{2}+BR_{5}+BR_{6})\frac{dN_{5}(e\text{⁺})}{dE}\biggr]\\
+\frac{dN(e\text{⁺})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{3}(e\text{⁺})}{dE}+\alpha_{2}\frac{dN_{5}(e\text{⁺})}{dE}+\alpha_{3}\frac{dN_{1}(e\text{⁺})}{dE}\biggr]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, we use table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Equivalence-between-AAbar"
+
+\end_inset
+
+ to relate the positron spectrum to the electron one
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{dN(e\text{⁺})}{dE} & \propto & \frac{1}{m_{G}\tau_{G}}\biggl[\alpha_{1}\frac{dN_{1}(e\text{⁻})}{dE}+\alpha_{2}\frac{dN_{2}(e\text{⁻})}{dE}+\alpha_{3}\frac{dN_{3}(e\text{⁻})}{dE}\biggr]\\
+\frac{dN(e\text{⁺})}{dE} & \equiv & \frac{dN(e\text{⁻})}{dE}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, for the fit of AMS-02, CALET or DAMPE we just need two 
+\begin_inset Formula $\alpha's$
+\end_inset
+
+ and three independent spectra.
+ Furthermore, we get automatically the electron-positron symmetry for (gravitino
+) dark matter decays which is expected from general arguments considering
+ charge conjugation symmetry.
+\end_layout
+
+\begin_layout Section
+Gamma rays at Fermi-LAT
+\end_layout
+
+\begin_layout Standard
+As we only can fix 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha_{3}$
+\end_inset
+
+ from the fit of charged leptons we have some freedom to choose the individual
+ branching fractions to generate the photon flux.
+ Also we must notice that for the photon spectrum we do not have coincidences
+ between the spectrum of different channels such as 
+\begin_inset Formula $e\text{⁺}\mu\text{⁻}\nu$
+\end_inset
+
+ and 
+\begin_inset Formula $e\text{⁺}\tau\text{⁻}\nu$
+\end_inset
+
+, as we had for positrons.
+ Therefore we are free to choose 
+\begin_inset Formula $BR{}_{1}$
+\end_inset
+
+ to 
+\begin_inset Formula $BR_{9}$
+\end_inset
+
+ with the conditions that
+\begin_inset Formula 
+\begin{eqnarray*}
+\alpha_{1} & = & BR{}_{1}+BR_{4}+BR_{7}\\
+\alpha_{2} & = & BR{}_{2}+BR_{5}+BR_{6}\\
+\alpha_{3} & = & BR{}_{3}+BR_{8}+BR_{9}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to decrease the possible number of photons to be produced we may
+ choose 
+\begin_inset Formula $BR_{i}$
+\end_inset
+
+ in the following way,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+BR_{1} & = & \alpha_{1},\,\,\,BR_{4}=BR_{7}=0\\
+BR_{2} & = & \alpha_{2},\,\,\,BR_{5}=BR_{6}=0\\
+BR_{8} & = & \alpha_{3},\,\,\,BR_{3}=BR_{9}=0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This choice needs to be justified but in principle it has allowed us to
+ find compatible points, which can be seen from the plots of German-Jul17.
+ 
+\end_layout
+
+\end_body
+\end_document

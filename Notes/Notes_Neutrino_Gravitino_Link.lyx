@@ -1,0 +1,542 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Gravitino Lifetime and Neutrino Masses in Trilinear RpV
+\end_layout
+
+\begin_layout Section
+Gravitino Lifetime
+\end_layout
+
+\begin_layout Standard
+The full expressions for the gravitino decay width, considering trilinear
+ R-Parity violation, are given in hep-ph/017286.
+ For instance, from these expressions we can get an approximated formula
+ for the leptonic decay 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Gamma(\tilde{G}\rightarrow\nu_{i}e_{j}\bar{e}_{k})$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ by assuming that the mass of the sleptons that mediate the three body decay
+ are equal, such that 
+\begin_inset Formula $m_{\tilde{\nu}_{iL}}=m_{\tilde{e}_{jL}}=m_{\tilde{e}_{kR}}=\tilde{m}$
+\end_inset
+
+, and expand in taylor series around the variable 
+\begin_inset Formula $m_{G}/\tilde{m}$
+\end_inset
+
+ to obtain
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Gamma(\tilde{G}\rightarrow\nu_{i}e_{j}\bar{e}_{k})\approx\frac{1}{96(2\pi)^{3}}\frac{\lambda_{ijk}^{2}}{8M_{\star}^{2}}\frac{m_{G}^{7}}{\tilde{m}^{4}},\label{eq:GravDecayApp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $M_{\star}=(8\pi G_{N})^{1/2}=2.4\times10^{18}\,\mbox{GeV}$
+\end_inset
+
+ is the reduced Planck mass.
+ This result shows that the decay width (lifetime) decreases (increases)
+ rapidly as we increase 
+\begin_inset Formula $\tilde{m}$
+\end_inset
+
+, as expected.
+ We expect that a similar behavior should be obtained even when the mass
+ of sleptons are not equal
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+\end_layout
+
+\begin_layout Standard
+Indeed, we have verified this expectation numerically, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+by evaluating the full expression given in 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+hep-ph/017286 using the maximum numerical precission in Mathematica.
+ For instance, in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Gravitino-life-time"
+
+\end_inset
+
+ we plot the gravitino lifetime as a function of 
+\begin_inset Formula $m_{\tilde{\nu}_{iL}}$
+\end_inset
+
+ for 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $m_{\tilde{e}_{jL}}=m_{\tilde{\nu}_{iL}}/2$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $m_{\tilde{e}_{kR}}=m_{\tilde{\nu}_{iL}}/5$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ Also, in the same figure we plot the lifetime derived from Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GravDecayApp"
+
+\end_inset
+
+ evaluated at 
+\begin_inset Formula $\tilde{m}=m_{\tilde{\nu}_{iL}}/2$
+\end_inset
+
+ in order to check that both approaches, exact computation and approximated
+ formula, behave quite similarly.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename GravitinoDecaym1m2m3Final.eps
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Gravitino-life-time"
+
+\end_inset
+
+Gravitino life time in Trilinear RpV for 
+\begin_inset Formula $\lambda_{ijk}=0.01,\,m_{G}=1\,\mbox{TeV}$
+\end_inset
+
+.
+ For simplicity we use 
+\begin_inset Formula $m_{1},\,m_{2},\,m_{3}$
+\end_inset
+
+ and 
+\begin_inset Formula $m$
+\end_inset
+
+ instead of 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $m_{\tilde{\nu}_{iL}},\,m_{\tilde{e}_{jL}},\,m_{\tilde{e}_{kR}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{m}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, we can confidently derive the following expression for the gravitino
+ lifetime,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tau_{G}\approx7\times10^{28}\,\mbox{sec}\,\left(\frac{1}{\lambda_{ijk}\lambda_{ijk}}\right)\left(\frac{\tilde{m}}{10^{8}\mbox{\,GeV}}\right)^{4}\left(\frac{1\,\mbox{TeV}}{m_{G}}\right)^{7}\label{eq:GravLifeTime}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where we have normalized with respect to 
+\begin_inset Formula $10^{28}\mbox{ sec}$
+\end_inset
+
+ since this is the order of magnitude required by experiments such as AMS-02
+ and Fermi-LAT in order to fit the electron positron data in the first case
+ or to avoid gamma ray constraints in the second.
+\end_layout
+
+\begin_layout Section
+Neutrino Masses
+\end_layout
+
+\begin_layout Standard
+In trilinear RpV the neutrino mass matrix receives contributions from 1-loop
+ diagrams that contain both a charged lepton and the corresponding slepton.
+ Indeed, we have derived the following (preliminary) expression
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+M_{ij}^{\nu\,(1)} & \approx & \frac{1}{16\pi^{2}}\sum_{gr}s_{\tilde{l}}c_{\tilde{l}}(\lambda_{igr}\lambda_{jrg}+\lambda_{jgr}\lambda_{irg})m_{g}\ln\frac{m_{\tilde{l}_{r2}}^{2}}{m_{\tilde{l}_{r1}}^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+ are neutrino generation indices that run from 1 to 3.
+ 
+\begin_inset Formula $g$
+\end_inset
+
+ is a charged lepton index that also run from 1 to 3, as well as 
+\begin_inset Formula $r$
+\end_inset
+
+ which is a slepton index.
+ Thus, it can be seen that for order one 
+\begin_inset Formula $s_{\tilde{l}}$
+\end_inset
+
+, 
+\begin_inset Formula $c_{\tilde{l}}$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\ln(m_{l_{r2}}^{2}/m_{l_{r1}}^{2})$
+\end_inset
+
+ we can get neutrino masses around the eV scale for 
+\begin_inset Formula $\lambda_{ijk}\approx0.01$
+\end_inset
+
+ even for 
+\begin_inset Formula $m_{g}\approx m_{e}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Indeed, by following the expressions given in hep-ph/0410242 for the contributio
+n of 
+\begin_inset Formula $\lambda'$
+\end_inset
+
+ trilinear terms, we can get by analogy that the dominant term in the leptonic
+ sector is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+M_{ij}^{\nu\,(1)} & \approx & \frac{1}{8\pi^{2}}\lambda_{i23}\lambda_{j32}\frac{m_{\mu}m_{\tau}A_{\tau}}{\tilde{m}^{2}}\\
+ & \approx & 2\times10^{-2}\mbox{eV}\,\lambda_{i23}\lambda_{j32}\,\left(\frac{10^{8}\mbox{\,GeV}}{\tilde{m}}\right)\\
+ & \approx & 2\times10^{-2}\mbox{eV}\,(\lambda_{i23}\lambda_{j32})^{5/4}\left(\frac{\tau_{G}}{7\times10^{\text{28}}\,\mbox{sec}}\right)^{1/4}\left(\frac{m_{G}}{1\,\mbox{TeV}}\right)^{7/4}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where 
+\begin_inset Formula $A_{\tau}$
+\end_inset
+
+ is a free parameter that can be considered of order 
+\begin_inset Formula $\tilde{m}$
+\end_inset
+
+, as it is done in 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+hep-ph/0410242
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ Thus, if we consider this formula together with Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GravLifeTime"
+
+\end_inset
+
+ we see that we can have contributions to the neutrino mass matrix of order
+ 
+\begin_inset Formula $10^{-2}\mbox{eV}$
+\end_inset
+
+ for trilinear couplings and a scalar mass which are compatible with 
+\begin_inset Formula $\tau_{G}\approx10^{28}\mbox{ sec}$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
