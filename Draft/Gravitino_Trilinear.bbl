@@ -1,0 +1,19 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{Grefe:2011dp}
+M.~Grefe, {\it {Unstable Gravitino Dark Matter - Prospects for Indirect and
+  Direct Detection}},  \href{http://xxx.lanl.gov/abs/1111.6779}{{\tt
+  arXiv:1111.6779}}.
+
+\bibitem{Belotsky:2016tja}
+K.~Belotsky, R.~Budaev, A.~Kirillov, and M.~Laletin, {\it {Fermi-LAT kills dark
+  matter interpretations of AMS-02 data. Or not?}},  {\em JCAP} {\bf 1701}
+  (2017), no.~01 021, [\href{http://xxx.lanl.gov/abs/1606.0127}{{\tt
+  arXiv:1606.0127}}].
+
+\bibitem{Moreau:2001sr}
+G.~Moreau and M.~Chemtob, {\it {R-parity violation and the cosmological
+  gravitino problem}},  {\em Phys.Rev.} {\bf D65} (2002) 024033,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0107286}{{\tt hep-ph/0107286}}].
+
+\end{thebibliography}\endgroup
