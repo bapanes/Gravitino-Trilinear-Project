@@ -1,9 +1,75 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
 \bibitem{Grefe:2011dp}
 M.~Grefe, {\it {Unstable Gravitino Dark Matter - Prospects for Indirect and
   Direct Detection}},  \href{http://xxx.lanl.gov/abs/1111.6779}{{\tt
   arXiv:1111.6779}}.
+
+\bibitem{Hooper:2018kfv}
+D.~Hooper, {\it {TASI Lectures on Indirect Searches For Dark Matter}},
+  \href{http://xxx.lanl.gov/abs/1812.0202}{{\tt arXiv:1812.0202}}.
+
+\bibitem{Accardo:2014lma}
+{\bf AMS} Collaboration, L.~Accardo et~al., {\it {High Statistics Measurement
+  of the Positron Fraction in Primary Cosmic Rays of 0.5–500 GeV with the
+  Alpha Magnetic Spectrometer on the International Space Station}},  {\em Phys.
+  Rev. Lett.} {\bf 113} (2014) 121101.
+
+\bibitem{Aguilar:2014mma}
+{\bf AMS} Collaboration, M.~Aguilar et~al., {\it {Electron and Positron Fluxes
+  in Primary Cosmic Rays Measured with the Alpha Magnetic Spectrometer on the
+  International Space Station}},  {\em Phys. Rev. Lett.} {\bf 113} (2014)
+  121102.
+
+\bibitem{Aguilar:2014fea}
+{\bf AMS} Collaboration, M.~Aguilar et~al., {\it {Precision Measurement of the
+  ($e^+ + e^−$) Flux in Primary Cosmic Rays from 0.5 GeV to 1 TeV with the
+  Alpha Magnetic Spectrometer on the International Space Station}},  {\em Phys.
+  Rev. Lett.} {\bf 113} (2014) 221102.
+
+\bibitem{Adriani:2018ktz}
+O.~Adriani et~al., {\it {Extended Measurement of the Cosmic-Ray Electron and
+  Positron Spectrum from 11 GeV to 4.8 TeV with the Calorimetric Electron
+  Telescope on the International Space Station}},  {\em Phys. Rev. Lett.} {\bf
+  120} (2018), no.~26 261102, [\href{http://xxx.lanl.gov/abs/1806.0972}{{\tt
+  arXiv:1806.0972}}].
+
+\bibitem{Ambrosi:2017wek}
+{\bf DAMPE} Collaboration, G.~Ambrosi et~al., {\it {Direct detection of a break
+  in the teraelectronvolt cosmic-ray spectrum of electrons and positrons}},
+  {\em Nature} {\bf 552} (2017) 63--66,
+  [\href{http://xxx.lanl.gov/abs/1711.1098}{{\tt arXiv:1711.1098}}].
+
+\bibitem{Ackermann:2014usa}
+{\bf The Fermi LAT} Collaboration, M.~Ackermann et~al., {\it {The spectrum of
+  isotropic diffuse gamma-ray emission between 100 MeV and 820 GeV}},
+  \href{http://xxx.lanl.gov/abs/1410.3696}{{\tt arXiv:1410.3696}}.
+
+\bibitem{Grefe:2008zz}
+M.~Grefe, {\it {Neutrino signals from gravitino dark matter with broken
+  R-parity}},  \href{http://xxx.lanl.gov/abs/1111.6041}{{\tt arXiv:1111.6041}}.
+
+\bibitem{2012PhRvD..86h3506C}
+M.~{Cirelli}, E.~{Moulin}, P.~{Panci}, P.~D. {Serpico}, and A.~{Viana}, {\it
+  {Gamma ray constraints on decaying dark matter}},  {\em \prd} {\bf 86} (Oct.,
+  2012) 083506, [\href{http://xxx.lanl.gov/abs/1205.5283}{{\tt
+  arXiv:1205.5283}}].
+
+\bibitem{Ando:2015qda}
+S.~Ando and K.~Ishiwata, {\it {Constraints on decaying dark matter from the
+  extragalactic gamma-ray background}},
+  \href{http://xxx.lanl.gov/abs/1502.0200}{{\tt arXiv:1502.0200}}.
+
+\bibitem{Laletin:2016egv}
+M.~Laletin, {\it {A no-go theorem for the dark matter interpretation of the
+  positron anomaly}},  {\em Frascati Phys. Ser.} {\bf 63} (2016) 7--12,
+  [\href{http://xxx.lanl.gov/abs/1607.0204}{{\tt arXiv:1607.0204}}].
+
+\bibitem{Liu:2016ngs}
+W.~Liu, X.-J. Bi, S.-J. Lin, and P.-F. Yin, {\it {Constraints on dark matter
+  annihilation and decay from the isotropic gamma-ray background}},  {\em Chin.
+  Phys.} {\bf C41} (2017), no.~4 045104,
+  [\href{http://xxx.lanl.gov/abs/1602.0101}{{\tt arXiv:1602.0101}}].
 
 \bibitem{Belotsky:2016tja}
 K.~Belotsky, R.~Budaev, A.~Kirillov, and M.~Laletin, {\it {Fermi-LAT kills dark
@@ -15,5 +81,19 @@ K.~Belotsky, R.~Budaev, A.~Kirillov, and M.~Laletin, {\it {Fermi-LAT kills dark
 G.~Moreau and M.~Chemtob, {\it {R-parity violation and the cosmological
   gravitino problem}},  {\em Phys.Rev.} {\bf D65} (2002) 024033,
   [\href{http://xxx.lanl.gov/abs/hep-ph/0107286}{{\tt hep-ph/0107286}}].
+
+\bibitem{Carquin:2015uma}
+E.~Carquin, M.~A. Diaz, G.~A. Gomez-Vargas, B.~Panes, and N.~Viaux, {\it
+  {Confronting recent AMS-02 positron fraction and Fermi-LAT extragalactic
+  $\gamma$-ray background measurements with gravitino dark matter}},  {\em
+  Phys. Dark Univ.} {\bf 11} (2016) 1--10,
+  [\href{http://xxx.lanl.gov/abs/1501.0593}{{\tt arXiv:1501.0593}}].
+
+\bibitem{Buchner:2014nha}
+J.~Buchner, A.~Georgakakis, K.~Nandra, L.~Hsu, C.~Rangel, M.~Brightman,
+  A.~Merloni, M.~Salvato, J.~Donley, and D.~Kocevski, {\it {X-ray spectral
+  modelling of the AGN obscuring region in the CDFS: Bayesian model selection
+  and catalogue}},  {\em Astron. Astrophys.} {\bf 564} (2014) A125,
+  [\href{http://xxx.lanl.gov/abs/1402.0004}{{\tt arXiv:1402.0004}}].
 
 \end{thebibliography}\endgroup

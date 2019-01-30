@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Gravitino_Trilinear.aux
 The style file: JHEP.bst
 Database file #1: Gravitino_Trilinear_References.bib
-You've used 3 entries,
+You've used 17 entries,
             2195 wiz_defined-function locations,
-            535 strings with 3959 characters,
-and the built_in function-call counts, 811 in all, are:
-= -- 82
-> -- 26
+            636 strings with 6838 characters,
+and the built_in function-call counts, 4847 in all, are:
+= -- 497
+> -- 174
 < -- 0
-+ -- 10
-- -- 7
-* -- 65
-:= -- 118
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 3
++ -- 65
+- -- 48
+* -- 378
+:= -- 674
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 45
-empty$ -- 71
-format.name$ -- 7
-if$ -- 204
+cite$ -- 17
+duplicate$ -- 268
+empty$ -- 416
+format.name$ -- 48
+if$ -- 1236
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 11
-newline$ -- 12
-num.names$ -- 3
-pop$ -- 11
+int.to.str$ -- 17
+missing$ -- 63
+newline$ -- 54
+num.names$ -- 17
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 197
 stack$ -- 0
-substring$ -- 30
-swap$ -- 20
+substring$ -- 215
+swap$ -- 124
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 4
-write$ -- 32
+while$ -- 32
+width$ -- 19
+write$ -- 174
