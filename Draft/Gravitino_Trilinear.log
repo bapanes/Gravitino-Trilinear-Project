@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.17)  1 FEB 2019 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.17)  1 FEB 2019 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,105 +771,105 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 358.
+(hyperref)                removing `math shift' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 358.
+(hyperref)                removing `subscript' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 358.
+(hyperref)                removing `subscript' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 358.
+(hyperref)                removing `math shift' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 362.
+(hyperref)                removing `subscript' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 362.
+(hyperref)                removing `subscript' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 362.
+(hyperref)                removing `subscript' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 366.
+(hyperref)                removing `math shift' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 366.
+(hyperref)                removing `subscript' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 366.
+(hyperref)                removing `subscript' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 366.
+(hyperref)                removing `subscript' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 366.
+(hyperref)                removing `math shift' on input line 364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 370.
+(hyperref)                removing `math shift' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 370.
+(hyperref)                removing `subscript' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 370.
+(hyperref)                removing `subscript' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 370.
+(hyperref)                removing `subscript' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 370.
+(hyperref)                removing `math shift' on input line 368.
 
 [8]
-<Figures/exp_plots_electron_flux_comparison.pdf, id=184, 1084.05pt x 361.35pt>
+<Figures/exp_plots_electron_flux_comparison.pdf, id=188, 1084.05pt x 361.35pt>
 File: Figures/exp_plots_electron_flux_comparison.pdf Graphic file (type pdf)
 <use Figures/exp_plots_electron_flux_comparison.pdf>
 Package pdftex.def Info: Figures/exp_plots_electron_flux_comparison.pdf  used o
-n input line 383.
+n input line 381.
 (pdftex.def)             Requested size: 455.24828pt x 170.71672pt.
 
-Overfull \hbox (15.24828pt too wide) in paragraph at lines 383--384
+Overfull \hbox (15.24828pt too wide) in paragraph at lines 381--382
  [] 
  []
 
-[9 <./Figures/exp_plots_electron_flux_comparison.pdf>]
-<Figures/exp_plots_gamma_rays_EGB_comparison.pdf, id=239, 1084.05pt x 722.7pt>
+<Figures/exp_plots_gamma_rays_EGB_comparison.pdf, id=190, 1084.05pt x 722.7pt>
 File: Figures/exp_plots_gamma_rays_EGB_comparison.pdf Graphic file (type pdf)
 <use Figures/exp_plots_gamma_rays_EGB_comparison.pdf>
 Package pdftex.def Info: Figures/exp_plots_gamma_rays_EGB_comparison.pdf  used 
-on input line 393.
+on input line 391.
 (pdftex.def)             Requested size: 455.24828pt x 341.43344pt.
 
-Overfull \hbox (15.24828pt too wide) in paragraph at lines 393--394
+Overfull \hbox (15.24828pt too wide) in paragraph at lines 391--392
  [] 
  []
 
-[10 <./Figures/exp_plots_gamma_rays_EGB_comparison.pdf>]
+[9 <./Figures/exp_plots_electron_flux_comparison.pdf>] [10 <./Figures/exp_plots
+_gamma_rays_EGB_comparison.pdf>]
 Package epstopdf Info: Source file: <GravitinoDecaym1m2m3Final.eps>
 (epstopdf)                    date: 2019-01-08 15:47:52
 (epstopdf)                    size: 66886 bytes
@@ -879,66 +879,66 @@ Package epstopdf Info: Source file: <GravitinoDecaym1m2m3Final.eps>
 (epstopdf)                    size: 23303 bytes
 (epstopdf)             Command: <repstopdf --outfile=GravitinoDecaym1m2m3Final-
 eps-converted-to.pdf GravitinoDecaym1m2m3Final.eps>
-(epstopdf)             \includegraphics on input line 434.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./GravitinoDecaym1m2m3Final-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.4> allowed
-<GravitinoDecaym1m2m3Final-eps-converted-to.pdf, id=295, 350.30875pt x 183.6862
+<GravitinoDecaym1m2m3Final-eps-converted-to.pdf, id=299, 350.30875pt x 183.6862
 5pt>
 File: GravitinoDecaym1m2m3Final-eps-converted-to.pdf Graphic file (type pdf)
 <use GravitinoDecaym1m2m3Final-eps-converted-to.pdf>
 Package pdftex.def Info: GravitinoDecaym1m2m3Final-eps-converted-to.pdf  used o
-n input line 434.
+n input line 432.
 (pdftex.def)             Requested size: 420.3684pt x 220.42236pt.
 [11 <./GravitinoDecaym1m2m3Final-eps-converted-to.pdf>]
-Overfull \hbox (9.91571pt too wide) in paragraph at lines 497--501
+Overfull \hbox (9.91571pt too wide) in paragraph at lines 501--505
 \T1/cmr/m/n/10 (FAPESP). The work of NV was sup-ported by CON-I-CYT FONDE-CYT/P
 OSTDOCTORADO/3140559.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--505
 
  []
 
-<Figures/pymultinest_fit_case_5_positron_flux.pdf, id=324, 722.7pt x 722.7pt>
+<Figures/pymultinest_fit_case_5_positron_flux.pdf, id=328, 722.7pt x 722.7pt>
 File: Figures/pymultinest_fit_case_5_positron_flux.pdf Graphic file (type pdf)
 <use Figures/pymultinest_fit_case_5_positron_flux.pdf>
 Package pdftex.def Info: Figures/pymultinest_fit_case_5_positron_flux.pdf  used
- on input line 510.
+ on input line 514.
 (pdftex.def)             Requested size: 398.33534pt x 398.33534pt.
-<Figures/pymultinest_fit_case_5_electron_flux.pdf, id=325, 722.7pt x 722.7pt>
+<Figures/pymultinest_fit_case_5_electron_flux.pdf, id=329, 722.7pt x 722.7pt>
 File: Figures/pymultinest_fit_case_5_electron_flux.pdf Graphic file (type pdf)
 <use Figures/pymultinest_fit_case_5_electron_flux.pdf>
 Package pdftex.def Info: Figures/pymultinest_fit_case_5_electron_flux.pdf  used
- on input line 518.
+ on input line 522.
 (pdftex.def)             Requested size: 398.33534pt x 398.33534pt.
-<Figures/pymultinest_fit_case_5_ep_fraction.pdf, id=326, 722.7pt x 722.7pt>
+<Figures/pymultinest_fit_case_5_ep_fraction.pdf, id=330, 722.7pt x 722.7pt>
 File: Figures/pymultinest_fit_case_5_ep_fraction.pdf Graphic file (type pdf)
 <use Figures/pymultinest_fit_case_5_ep_fraction.pdf>
 Package pdftex.def Info: Figures/pymultinest_fit_case_5_ep_fraction.pdf  used o
-n input line 526.
+n input line 530.
 (pdftex.def)             Requested size: 398.33534pt x 398.33534pt.
-<Figures/pymultinest_fit_case_5_electron_plus_positron.pdf, id=327, 722.7pt x 7
+<Figures/pymultinest_fit_case_5_electron_plus_positron.pdf, id=331, 722.7pt x 7
 22.7pt>
 File: Figures/pymultinest_fit_case_5_electron_plus_positron.pdf Graphic file (t
 ype pdf)
 <use Figures/pymultinest_fit_case_5_electron_plus_positron.pdf>
 Package pdftex.def Info: Figures/pymultinest_fit_case_5_electron_plus_positron.
-pdf  used on input line 534.
+pdf  used on input line 538.
 (pdftex.def)             Requested size: 398.33534pt x 398.33534pt.
-<Figures/pymultinest_fit_case_5_gamma_rays_EGB.pdf, id=328, 867.24pt x 722.7pt>
+<Figures/pymultinest_fit_case_5_gamma_rays_EGB.pdf, id=332, 867.24pt x 722.7pt>
 
 File: Figures/pymultinest_fit_case_5_gamma_rays_EGB.pdf Graphic file (type pdf)
 
 <use Figures/pymultinest_fit_case_5_gamma_rays_EGB.pdf>
 Package pdftex.def Info: Figures/pymultinest_fit_case_5_gamma_rays_EGB.pdf  use
-d on input line 542.
+d on input line 546.
 (pdftex.def)             Requested size: 455.24167pt x 341.43344pt.
 
-Overfull \hbox (15.24167pt too wide) in paragraph at lines 542--543
+Overfull \hbox (15.24167pt too wide) in paragraph at lines 546--547
  [] 
  []
 
@@ -953,23 +953,30 @@ Missing character: There is no ’ in font cmr10!
 ) [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
  (./Gravitino_Trilinear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 553.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
-Package rerunfilecheck Info: File `Gravitino_Trilinear.out' has not changed.
-(rerunfilecheck)             Checksum: 97286F5F81C96C0863947A37170BEA96;958.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 553.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
+
+
+Package rerunfilecheck Warning: File `Gravitino_Trilinear.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Gravitino_Trilinear.out':
+(rerunfilecheck)             Before: 575BE06BFB3DCD5CEA29EA653EB9C339;1006
+(rerunfilecheck)             After:  FFDCD5897D493F01513073A043FB65FB;1005.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
  ) 
 Here is how much of TeX's memory you used:
- 18442 strings out of 492982
- 336473 string characters out of 6134896
+ 18444 strings out of 492982
+ 336493 string characters out of 6134896
  404829 words of memory out of 5000000
- 21537 multiletter control sequences out of 15000+600000
+ 21538 multiletter control sequences out of 15000+600000
  25816 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,56p,1580b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,56p,1629b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -992,9 +999,9 @@ r/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr
 ype1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Gravitino_Trilinear.pdf (18 pages, 741122 bytes).
+Output written on Gravitino_Trilinear.pdf (18 pages, 741787 bytes).
 PDF statistics:
- 721 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
