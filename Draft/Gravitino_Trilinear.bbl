@@ -83,11 +83,6 @@ K.~Belotsky, R.~Budaev, A.~Kirillov, and M.~Laletin, {\it {Fermi-LAT kills dark
   (2017), no.~01 021, [\href{http://xxx.lanl.gov/abs/1606.0127}{{\tt
   arXiv:1606.0127}}].
 
-\bibitem{Moreau:2001sr}
-G.~Moreau and M.~Chemtob, {\it {R-parity violation and the cosmological
-  gravitino problem}},  {\em Phys.Rev.} {\bf D65} (2002) 024033,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/0107286}{{\tt hep-ph/0107286}}].
-
 \bibitem{Carquin:2015uma}
 E.~Carquin, M.~A. Diaz, G.~A. Gomez-Vargas, B.~Panes, and N.~Viaux, {\it
   {Confronting recent AMS-02 positron fraction and Fermi-LAT extragalactic
@@ -95,11 +90,21 @@ E.~Carquin, M.~A. Diaz, G.~A. Gomez-Vargas, B.~Panes, and N.~Viaux, {\it
   Phys. Dark Univ.} {\bf 11} (2016) 1--10,
   [\href{http://xxx.lanl.gov/abs/1501.0593}{{\tt arXiv:1501.0593}}].
 
+\bibitem{Moreau:2001sr}
+G.~Moreau and M.~Chemtob, {\it {R-parity violation and the cosmological
+  gravitino problem}},  {\em Phys.Rev.} {\bf D65} (2002) 024033,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0107286}{{\tt hep-ph/0107286}}].
+
 \bibitem{Buchner:2014nha}
 J.~Buchner, A.~Georgakakis, K.~Nandra, L.~Hsu, C.~Rangel, M.~Brightman,
   A.~Merloni, M.~Salvato, J.~Donley, and D.~Kocevski, {\it {X-ray spectral
   modelling of the AGN obscuring region in the CDFS: Bayesian model selection
   and catalogue}},  {\em Astron. Astrophys.} {\bf 564} (2014) A125,
   [\href{http://xxx.lanl.gov/abs/1402.0004}{{\tt arXiv:1402.0004}}].
+
+\bibitem{Chun:2004mu}
+E.~J. Chun and S.~C. Park, {\it {Neutrino mass from R-parity violation in split
+  supersymmetry}},  {\em JHEP} {\bf 01} (2005) 009,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0410242}{{\tt hep-ph/0410242}}].
 
 \end{thebibliography}\endgroup
