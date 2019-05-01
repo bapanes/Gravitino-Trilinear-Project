@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Gravitino_Trilinear.aux
 The style file: JHEP.bst
 Database file #1: Gravitino_Trilinear_References.bib
 You've used 19 entries,
             2195 wiz_defined-function locations,
-            652 strings with 7134 characters,
-and the built_in function-call counts, 5517 in all, are:
-= -- 568
+            657 strings with 7152 characters,
+and the built_in function-call counts, 5800 in all, are:
+= -- 598
 > -- 190
 < -- 0
 + -- 71
 - -- 52
-* -- 434
-:= -- 762
+* -- 460
+:= -- 796
 add.period$ -- 19
 call.type$ -- 19
 change.case$ -- 19
 chr.to.int$ -- 0
 cite$ -- 19
-duplicate$ -- 304
-empty$ -- 482
+duplicate$ -- 326
+empty$ -- 517
 format.name$ -- 52
-if$ -- 1412
+if$ -- 1495
 int.to.chr$ -- 0
 int.to.str$ -- 19
-missing$ -- 71
+missing$ -- 73
 newline$ -- 60
 num.names$ -- 19
-pop$ -- 69
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 224
+skip$ -- 239
 stack$ -- 0
-substring$ -- 256
-swap$ -- 140
+substring$ -- 266
+swap$ -- 152
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 37
+while$ -- 39
 width$ -- 21
-write$ -- 197
+write$ -- 206
