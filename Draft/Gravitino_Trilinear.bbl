@@ -84,6 +84,20 @@ K.~Belotsky, R.~Budaev, A.~Kirillov, and M.~Laletin, {\it {Fermi-LAT kills dark
   (2017), no.~01 021, [\href{http://xxx.lanl.gov/abs/1606.0127}{{\tt
   arXiv:1606.0127}}].
 
+\bibitem{Profumo:2018fmz}
+S.~Profumo, J.~Reynoso-Cordova, N.~Kaaz, and M.~Silverman, {\it {Lessons from
+  HAWC pulsar wind nebulae observations: The diffusion constant is not a
+  constant; pulsars remain the likeliest sources of the anomalous positron
+  fraction; cosmic rays are trapped for long periods of time in pockets of
+  inefficient diffusion}},  {\em Phys. Rev.} {\bf D97} (2018), no.~12 123008,
+  [\href{http://xxx.lanl.gov/abs/1803.0973}{{\tt arXiv:1803.0973}}].
+
+\bibitem{Hooper:2017gtd}
+D.~Hooper, I.~Cholis, T.~Linden, and K.~Fang, {\it {HAWC Observations Strongly
+  Favor Pulsar Interpretations of the Cosmic-Ray Positron Excess}},  {\em Phys.
+  Rev.} {\bf D96} (2017), no.~10 103013,
+  [\href{http://xxx.lanl.gov/abs/1702.0843}{{\tt arXiv:1702.0843}}].
+
 \bibitem{Carquin:2015uma}
 E.~Carquin, M.~A. Diaz, G.~A. Gomez-Vargas, B.~Panes, and N.~Viaux, {\it
   {Confronting recent AMS-02 positron fraction and Fermi-LAT extragalactic
@@ -95,6 +109,12 @@ E.~Carquin, M.~A. Diaz, G.~A. Gomez-Vargas, B.~Panes, and N.~Viaux, {\it
 G.~Moreau and M.~Chemtob, {\it {R-parity violation and the cosmological
   gravitino problem}},  {\em Phys.Rev.} {\bf D65} (2002) 024033,
   [\href{http://xxx.lanl.gov/abs/hep-ph/0107286}{{\tt hep-ph/0107286}}].
+
+\bibitem{Feroz:2008xx}
+F.~Feroz, M.~P. Hobson, and M.~Bridges, {\it {MultiNest: an efficient and
+  robust Bayesian inference tool for cosmology and particle physics}},  {\em
+  Mon. Not. Roy. Astron. Soc.} {\bf 398} (2009) 1601--1614,
+  [\href{http://xxx.lanl.gov/abs/0809.3437}{{\tt arXiv:0809.3437}}].
 
 \bibitem{Buchner:2014nha}
 J.~Buchner, A.~Georgakakis, K.~Nandra, L.~Hsu, C.~Rangel, M.~Brightman,
