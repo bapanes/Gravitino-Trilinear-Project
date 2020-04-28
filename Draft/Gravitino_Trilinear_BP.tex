@@ -133,7 +133,7 @@ Motivated by the anomalous measurement of the positron fraction done by experime
 
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Gravitino model and effective decay channels}
+\section{Theory: model definition and motivations}
 \label{gdecay}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -223,6 +223,14 @@ any flavor of neutrinos. }
 %\label{table:accesible-decay-channels-TRpV}
 %\end{table}
 
+\textcolor{blue}{Here, we could discuss the motivations of the model from the point of view of neutrinos and avoidance of collider constrains, jus in general words and maybe using the computations in the appendix.}
+
+\section{Model selection: data fit and discussion}
+
+It has been shown \red{ref} that is not possible to reproduce the rise in electron and positron flux above $\approx 200$ GeV modeling the fluxes with decreasing power laws.
+
+Therefore, we must include a source term injecting electron and positrons at high energies. Our source term \blue{comes from} the decay of gravitino dark matter into standard model particles, whose general expression is given in Eq.~(\ref{dm-flux}). It is worth noticing that gravitino decay yields equal amounts of electron and positron, as shown in Eq.~(\ref{ele-pos-spec}). 
+
 Considering the effective channels given in Table~(\ref{tab:Independent-channels-prompt-final-states}), we can  model the amount of electrons, positrons, or $\gamma$ rays, labeled as $\eta$, produced by gravitino decay as:
 
 \begin{equation}
@@ -232,6 +240,12 @@ Considering the effective channels given in Table~(\ref{tab:Independent-channels
 
 \noindent with $m_G$ and $\tau_G$ the mass and lifetime of the gravitino respectively. The term $\eta = e, p,\gamma$ for electron, positron or gamma-ray flux correspondingly. The $D^{\eta}_{\text{factor}}$ is proportional to the density of dark matter in the case of $\eta=\gamma$, in the other cases is a more complex term that depends on the dark matter density and the propagation of charged particles in the Galaxy. The term $dN_j^{\eta}/dE$ is the amount of electrons, positrons, or gamma-rays per energy produced by decay of a gravitino per energy and propagated at the Earth position \blue{and $Br_j$ is the branching fraction of the corresponding channel}.
 
+\subsection{Background}
+
+\begin{eqnarray}
+\Phi_B^p(E) &=& C_p E^{-\gamma_p} \text{ for positrons, and}\\
+\Phi_B^e(E) &=& C_e E^{-\gamma_e} \text{ for electrons}.
+\end{eqnarray}
 \subsection{Electron-positron spectrum}
 
 For the computation of the electron-positron spectrum at \blue{Earth's position}, we consider an approach similar to our previous work~\cite{Carquin:2015uma}, therefore we suggest to follow this work and references therein for the computations of the total flux including propagation effects. For simplicity, we restrict the current analysis to the MED propagation method only.
@@ -325,21 +339,8 @@ Br_{8} & = & \alpha_{3},\,\,\,Br_{6}=BR_{7}=0
 \noindent which can be justified from the analysis of the corresponding gamma-ray spectra obtained for the corresponding channels. Basically,
 we prioritize the channels that produce the least amount of photons per gravitino decay. \red{Maybe, this choice needs further justification but in principle it has allowed us to find compatible points, which can be seen from the plots shown in the analysis part.} 
 
-\section{Statistical data analysis}
+\subsection{Likelihood analysis: definition and results}
 \label{sec:stats}
-
-We fit measurements related to electron and positron fluxes at \blue{Earth's position}. First, we define backgrounds for each of these fluxes with power laws:
-
-\begin{equation}
-\Phi_B^p(E) = C_p E^{-\gamma_p}, 
-\end{equation}
-for positrons, and for electrons:
-
-\begin{equation}
-\Phi_B^e(E) = C_e E^{-\gamma_e}.
-\end{equation}
-
-It has been shown \red{ref} that is not possible to reproduce the rise in electron and positron flux above $\approx 200$ GeV modeling the fluxes with decreasing power laws. Therefore, we must include a source term injecting electron and positrons at high energies. Our source term \blue{comes from} the decay of gravitino dark matter into standard model particles, whose general expression is given in Eq.~(\ref{dm-flux}). It is worth noticing that gravitino decay yields equal amounts of electron and positron, as shown in Eq.~(\ref{ele-pos-spec}). 
 
 Considering the definition of our background model and the analysis of the gravitino sector of the previous section, we end with eight free parameters that we need to fix to fully determine signal and background for electron and positron fluxes. Therefore, in order to compare with data, for instance positron measurements $\Phi_D^p(E_i)$, we define the following \blue{Gaussian} likelihood form:
 
@@ -373,8 +374,8 @@ Considering the definition of our background model and the analysis of the gravi
 
 %In this way we are going to consider most of the data that we currently know about the detection of charged leptons.
 
-\section{Results}
-\label{sec:results}
+%\subsection{Results}
+%\label{sec:results}
 
 The results of our statistical analysis are summarized in the table~\ref{table:best-fit-summary} and the figures shown at the end of the section. In general we can see that the required life-time $\tau_G$ to fit the charged-lepton data is around $4\times 10^{26}$ s. \blue{We find that} this value is sufficiently high to predict a gamma-ray flux statististically compatible with the limits of the EGB. Below, \blue{we present details of} the results of our effective analysis for different choices of measured data.  
 
@@ -428,12 +429,10 @@ In this case we do not use the electron-positron sum from AMS-02, but the values
 \subsection{$D_1 + D_2 + D_5$}
 We include here the electron-positron sum from DAMPE. This measurement is in tension with AMS02. We find no points compatible with lepton and gamma-ray data.
 
-\section{Comparison between trilinear and bilinear observables}
+\section{Discussion: consistency with previous results and consequences}
 \label{sec:comparison}
 
-\blue{We now compare the differences of bi-linear to tri-linear decay channel models, i.e., our previous and current work.} The main difference between these scenarios is directly connected to the type of decay channels that are allowed for both cases. 
-
-%Here we want to support our previous results from a comparative analysis between TRpV and BRpV decay channels. 
+\blue{The main result of the previous section and the full work is that we have been able to find a model that can satisfy the anomalies in the positron fraction. Thus, here we could try to understand this result by comparing it with our previous work, so we emphasize the result and late we could conclude with something extra: such as a discussion about the consequences of this model in the light of the pulsar discusion about the galactic center excess, etc} 
 
 \blue{The BRpV only models two-body decays} containing gauge bosons and leptons ($G\rightarrow Z \nu$ and $G\rightarrow W^{\pm} l^{\mp}$) or a Higgs particle plus neutrinos ($G\rightarrow H\nu$). In particular, in our previous work we have shown that the preferred channel to explain the positron anomaly is given by $G\rightarrow W^{\pm} \tau^{\mp}$ which is one of the channels that produce most photons associated to final state radiation, instead, in TRpV \blue{we only model} three-body decays including two charged leptons plus a neutrino ($G\rightarrow l^{\pm} l^{\mp} \nu$) as shown in table \ref{table:accesible-decay-channels-TRpV}. In the previous section we have shown that the preferred channels are given by $G\rightarrow \tau^{\pm} l^{\mp} \nu$, with $l^{\mp}$ including the three flavours, but also the contributions of other channels are necessary.   
 
@@ -459,7 +458,27 @@ Furthermore, it also can be shown that for the analogous exercise but now using 
 \end{center}
 \end{figure}
 
-\section{Discussion about the gravitino lifetime and neutrino masses}
+\section{Summary}
+\label{sec:conclusions}
+\blue{We have presented a tri-linear gravitino decay model. Within this scenario, we can consistently} explain the data from AMS-02 and respect the EGB limits derived from Fermi-LAT data, which can be understood from the particular features of gravitino decays of this model. However, when we include the data from CALET or DAMPE, that cover higher energies than AMS-02, the things get tougher again. Nonetheles, in this model we also can connect the life-time and branching fractions of gravitino decays that are able to explain the positron anomaly to the scale of neutrino physics. 
+
+In our computations we have not considered the extragalactic component of gravitino decays or the inverse Compton mechanism, which will enhance the contribution to the total amount of gamma-rays produced by our candidate dark matter. By considering these issues we may suggest that this scenario can accomodate most but not all of the anomalous signal in the charged lepton measurements and the rest should be supplied by astrophysicical components. 
+
+\section*{Acknowledgments}
+
+{\small 
+\blue{We acknowledge support from the CONICYT-Chile grants Basal-CATA
+PFB-06/2007 and Basal AFB-170002 (JB), FONDECYT Postdoctorados 3160439 (JB) and the Ministry of Economy, Development, and Tourism's Millennium Science Initiative through grant IC120009, awarded to The Millennium Institute of Astrophysics, MAS (JB). BP also thanks for the support of the State of S\~{a}o Paulo Research Foundation (FAPESP).}
+
+
+%The authors are thankful to Andrea Albert, Borut Bajc, Marco Cirelli, Michael Grefe, Luis Labarga, Carlos Munoz, Paolo Panci, Frank Steffen, and Gabriela Zaharijas for useful comments, and Marco Ajello for providing the EGB model contributions of Fig.~(\ref{fig:bf-photon-egb-spectrum}).
+% This work was supported by Conicyt Anillo grant ACT1102. GAGV thanks for the support of the Spanish MINECO's Consolider-Ingenio 2010 Programme under grant MultiDark CSD2009-00064 also the partial support by MINECO under grant FPA2012-34694. BP also thanks for the support of the State of S\~{a}o Paulo Research Foundation (FAPESP). The work of NV was supported by CONICYT FONDECYT/POSTDOCTORADO/3140559.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\section{Appendix}
+\subsection{Extra phenomenology: back of the envelope computations}
 \label{sec:lifetime-neutrinomasses}
 
 The full expressions for the gravitino decay width, considering trilinear
@@ -555,26 +574,6 @@ see that we can have contributions to the neutrino mass matrix of
 order $10^{-2}$ eV for trilinear couplings and a scalar mass
 which are compatible with $\tau_{G}\approx10^{26}$ s.
 
-\section{Conclusions}
-\label{sec:conclusions}
-\blue{We have presented a tri-linear gravitino decay model. Within this scenario, we can consistently} explain the data from AMS-02 and respect the EGB limits derived from Fermi-LAT data, which can be understood from the particular features of gravitino decays of this model. However, when we include the data from CALET or DAMPE, that cover higher energies than AMS-02, the things get tougher again. Nonetheles, in this model we also can connect the life-time and branching fractions of gravitino decays that are able to explain the positron anomaly to the scale of neutrino physics. 
-
-In our computations we have not considered the extragalactic component of gravitino decays or the inverse Compton mechanism, which will enhance the contribution to the total amount of gamma-rays produced by our candidate dark matter. By considering these issues we may suggest that this scenario can accomodate most but not all of the anomalous signal in the charged lepton measurements and the rest should be supplied by astrophysicical components. 
-
-\section*{Acknowledgments}
-
-{\small 
-\blue{We acknowledge support from the CONICYT-Chile grants Basal-CATA
-PFB-06/2007 and Basal AFB-170002 (JB), FONDECYT Postdoctorados 3160439 (JB) and the Ministry of Economy, Development, and Tourism's Millennium Science Initiative through grant IC120009, awarded to The Millennium Institute of Astrophysics, MAS (JB). BP also thanks for the support of the State of S\~{a}o Paulo Research Foundation (FAPESP).}
-
-
-%The authors are thankful to Andrea Albert, Borut Bajc, Marco Cirelli, Michael Grefe, Luis Labarga, Carlos Munoz, Paolo Panci, Frank Steffen, and Gabriela Zaharijas for useful comments, and Marco Ajello for providing the EGB model contributions of Fig.~(\ref{fig:bf-photon-egb-spectrum}).
-% This work was supported by Conicyt Anillo grant ACT1102. GAGV thanks for the support of the Spanish MINECO's Consolider-Ingenio 2010 Programme under grant MultiDark CSD2009-00064 also the partial support by MINECO under grant FPA2012-34694. BP also thanks for the support of the State of S\~{a}o Paulo Research Foundation (FAPESP). The work of NV was supported by CONICYT FONDECYT/POSTDOCTORADO/3140559.
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\appendix
-\section{Appendix}
 \subsection{Results of the fit}
 
 In this section we show the plots concerning the statistical analysis of Cases 1 to 4, which are detailed in the main text. The black lines indicate the best fit curve, while the shade regions show 1 and 2 $\sigma$ confidence level regions.
