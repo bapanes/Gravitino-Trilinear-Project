@@ -1,0 +1,13 @@
+Dear Johannes Buchner,
+
+I saw your paper arXiv:2011.09344 with great interest. For your information, I would like to notice that the parameter space of decaying gravitino motivated by the PAMELA/AMS-02 positron anomaly is severely constrained by the tomographic cross-correlation analysis between gamma-ray and local galaxy distribution:
+
+Constraining particle dark matter using local galaxy distribution
+S. Ando and K. Ishiwata
+JCAP 06, 045 (2016)
+
+I hope you find it helpful.
+
+Best withes,
+
+Koji
